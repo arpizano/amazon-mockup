@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    font-family: arial;
+}
+
+#sign-in-form {
+    border: 1px solid gray;
+    padding: 10px;
+    display: inline-block;
+    text-align: left;
+    width: 35%;
+    margin-top: 30px;
+}
+
+h2, label{
+    color: darkslategray;
+    margin: 10px;
+}
+
+label#password {
+    padding-left: 2.5em;
+}
+
+#forgot-password {
+    float: right;
+    margin-right: 10px;
+}
+
+button {
+    padding: 5px;
+}
+
+input {
+    width: 90%;
+    margin: 10px;
+}
+
+ul {
+    padding: 0;
+}
+
+ul > li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 5px;
+}
